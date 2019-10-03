@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+}
+
+.page-nav {
+    background-color: #A9D;
+    border: none;
+    color: #FFF;
+    z-index: 1001;
+
+    .navbar-header {
+        display: inline-block;
+        float: left;
+
+        .navbar-brand {
+            color: #FFF;
+            display: inline-block;
+            height: auto;
+            font-size: 30px;
+            margin: 0!important;
+            padding: 12px 0;
+
+            .brand-image {
+                display: inline-block;
+                float: left;
+                width: 45px;
+            }
+
+            .brand-text {
+                display: inline-block;
+                font-family: Arvo;
+                font-size: 3rem;
+                line-height: 60px;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .site-nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        > li > a {
+            color: #FFF;
+            display: inline-block;
+            font-size: 1.7rem;
+            padding: 30px 15px;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, .1);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.page-content {
+    font-size: 1.6rem;
+    line-height: 2.75rem;
+}
+
+footer {
+    border-top: 1px solid #E6E6E6;
+    margin: 30px 0 0;
+    padding: 30px 0;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+.homepage-wrapper {
+    align-items: center;
+    display: flex;
+    font-family: Oxygen;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.brand-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 1.5rem;
+
+    .brand-logo {
+        float: left;
+        width: 100px;
+    }
+
+    .brand-title {
+        font-family: Arvo;
+        font-size: 6.25rem;
+        margin: 3.25rem 0 3.25rem 125px;
+    }
+}
+
+.homepage-nav {
+    border-top: 2px solid #000;
+
+    > ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        > li > a {
+            color: #333;
+            display: block;
+            font-size: 2.5rem;
+            padding: 2.5rem 3.5rem;
+
+            &:hover {
+                color: #333;
+                text-decoration: underline;
+            }
+        }
+    }
+}
